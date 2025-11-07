@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-11-07">
+    <creator>NetworkX 3.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="6" title="cooffers" type="long" />
+      <attribute id="7" title="joint_qty" type="double" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="num_products" type="long" />
+      <attribute id="1" title="mean_stock" type="double" />
+      <attribute id="2" title="total_stock" type="double" />
+      <attribute id="3" title="mean_sold" type="double" />
+      <attribute id="4" title="total_sold" type="double" />
+      <attribute id="5" title="stockout_rate" type="double" />
+    </attributes>
+    <nodes>
+      <node id="ACC" label="ACC">
+        <attvalues>
+          <attvalue for="0" value="84" />
+          <attvalue for="1" value="9.565099106101826" />
+          <attvalue for="2" value="24611.0" />
+          <attvalue for="3" value="2.003886513797124" />
+          <attvalue for="4" value="5156.0" />
+          <attvalue for="5" value="0.03381267003497863" />
+        </attvalues>
+      </node>
+      <node id="APP &amp; SPORTS" label="APP &amp; SPORTS">
+        <attvalues>
+          <attvalue for="0" value="191" />
+          <attvalue for="1" value="18.12234725473907" />
+          <attvalue for="2" value="239958.0" />
+          <attvalue for="3" value="1.9377690506759309" />
+          <attvalue for="4" value="25658.0" />
+          <attvalue for="5" value="0.016237444301789895" />
+        </attvalues>
+      </node>
+      <node id="BEAUTY &amp; HEALTH" label="BEAUTY &amp; HEALTH">
+        <attvalues>
+          <attvalue for="0" value="146" />
+          <attvalue for="1" value="127.33552447552448" />
+          <attvalue for="2" value="910449.0" />
+          <attvalue for="3" value="24.914825174825175" />
+          <attvalue for="4" value="178141.0" />
+          <attvalue for="5" value="0.04153846153846154" />
+        </attvalues>
+      </node>
+      <node id="CE" label="CE">
+        <attvalues>
+          <attvalue for="0" value="185" />
+          <attvalue for="1" value="24.500753273844015" />
+          <attvalue for="2" value="211417.0" />
+          <attvalue for="3" value="2.530188897902422" />
+          <attvalue for="4" value="21833.0" />
+          <attvalue for="5" value="0.02143933248348592" />
+        </attvalues>
+      </node>
+      <node id="CPG" label="CPG">
+        <attvalues>
+          <attvalue for="0" value="94" />
+          <attvalue for="1" value="14.72328666175387" />
+          <attvalue for="2" value="39959.0" />
+          <attvalue for="3" value="2.098747236551216" />
+          <attvalue for="4" value="5696.0" />
+          <attvalue for="5" value="0.039425202652910836" />
+        </attvalues>
+      </node>
+      <node id="ENTERTAINMENT" label="ENTERTAINMENT">
+        <attvalues>
+          <attvalue for="0" value="17" />
+          <attvalue for="1" value="6.032380952380953" />
+          <attvalue for="2" value="3167.0" />
+          <attvalue for="3" value="0.68" />
+          <attvalue for="4" value="357.0" />
+          <attvalue for="5" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="HOME &amp; INDUSTRY" label="HOME &amp; INDUSTRY">
+        <attvalues>
+          <attvalue for="0" value="407" />
+          <attvalue for="1" value="20.90700208882027" />
+          <attvalue for="2" value="230207.0" />
+          <attvalue for="3" value="2.4667151030787395" />
+          <attvalue for="4" value="27161.0" />
+          <attvalue for="5" value="0.031150667514303877" />
+        </attvalues>
+      </node>
+      <node id="OTHERS" label="OTHERS">
+        <attvalues>
+          <attvalue for="0" value="39" />
+          <attvalue for="1" value="10.394265232974911" />
+          <attvalue for="2" value="2900.0" />
+          <attvalue for="3" value="1.2795698924731183" />
+          <attvalue for="4" value="357.0" />
+          <attvalue for="5" value="0.010752688172043012" />
+        </attvalues>
+      </node>
+      <node id="T &amp; B" label="T &amp; B">
+        <attvalues>
+          <attvalue for="0" value="103" />
+          <attvalue for="1" value="16.695121951219512" />
+          <attvalue for="2" value="43808.0" />
+          <attvalue for="3" value="0.8951981707317073" />
+          <attvalue for="4" value="2349.0" />
+          <attvalue for="5" value="0.013719512195121951" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="ACC" target="APP &amp; SPORTS" id="0" weight="203.0">
+        <attvalues>
+          <attvalue for="6" value="203" />
+          <attvalue for="7" value="27435.0" />
+        </attvalues>
+      </edge>
+      <edge source="ACC" target="BEAUTY &amp; HEALTH" id="1" weight="210.0">
+        <attvalues>
+          <attvalue for="6" value="210" />
+          <attvalue for="7" value="60671.0" />
+        </attvalues>
+      </edge>
+      <edge source="ACC" target="CE" id="2" weight="200.0">
+        <attvalues>
+          <attvalue for="6" value="200" />
+          <attvalue for="7" value="23003.0" />
+        </attvalues>
+      </edge>
+      <edge source="ACC" target="CPG" id="3" weight="191.0">
+        <attvalues>
+          <attvalue for="6" value="191" />
+          <attvalue for="7" value="8675.0" />
+        </attvalues>
+      </edge>
+      <edge source="ACC" target="ENTERTAINMENT" id="4" weight="156.0">
+        <attvalues>
+          <attvalue for="6" value="156" />
+          <attvalue for="7" value="4688.0" />
+        </attvalues>
+      </edge>
+      <edge source="ACC" target="HOME &amp; INDUSTRY" id="5" weight="207.0">
+        <attvalues>
+          <attvalue for="6" value="207" />
+          <attvalue for="7" value="27287.0" />
+        </attvalues>
+      </edge>
+      <edge source="ACC" target="OTHERS" id="6" weight="111.0">
+        <attvalues>
+          <attvalue for="6" value="111" />
+          <attvalue for="7" value="3322.0" />
+        </attvalues>
+      </edge>
+      <edge source="ACC" target="T &amp; B" id="7" weight="190.0">
+        <attvalues>
+          <attvalue for="6" value="190" />
+          <attvalue for="7" value="7074.0" />
+        </attvalues>
+      </edge>
+      <edge source="APP &amp; SPORTS" target="BEAUTY &amp; HEALTH" id="8" weight="458.0">
+        <attvalues>
+          <attvalue for="6" value="458" />
+          <attvalue for="7" value="176754.0" />
+        </attvalues>
+      </edge>
+      <edge source="APP &amp; SPORTS" target="CE" id="9" weight="418.0">
+        <attvalues>
+          <attvalue for="6" value="418" />
+          <attvalue for="7" value="45915.0" />
+        </attvalues>
+      </edge>
+      <edge source="APP &amp; SPORTS" target="CPG" id="10" weight="294.0">
+        <attvalues>
+          <attvalue for="6" value="294" />
+          <attvalue for="7" value="28634.0" />
+        </attvalues>
+      </edge>
+      <edge source="APP &amp; SPORTS" target="ENTERTAINMENT" id="11" weight="190.0">
+        <attvalues>
+          <attvalue for="6" value="190" />
+          <attvalue for="7" value="18984.0" />
+        </attvalues>
+      </edge>
+      <edge source="APP &amp; SPORTS" target="HOME &amp; INDUSTRY" id="12" weight="443.0">
+        <attvalues>
+          <attvalue for="6" value="443" />
+          <attvalue for="7" value="51610.0" />
+        </attvalues>
+      </edge>
+      <edge source="APP &amp; SPORTS" target="OTHERS" id="13" weight="149.0">
+        <attvalues>
+          <attvalue for="6" value="149" />
+          <attvalue for="7" value="13573.0" />
+        </attvalues>
+      </edge>
+      <edge source="APP &amp; SPORTS" target="T &amp; B" id="14" weight="307.0">
+        <attvalues>
+          <attvalue for="6" value="307" />
+          <attvalue for="7" value="25585.0" />
+        </attvalues>
+      </edge>
+      <edge source="BEAUTY &amp; HEALTH" target="CE" id="15" weight="438.0">
+        <attvalues>
+          <attvalue for="6" value="438" />
+          <attvalue for="7" value="167356.0" />
+        </attvalues>
+      </edge>
+      <edge source="BEAUTY &amp; HEALTH" target="CPG" id="16" weight="310.0">
+        <attvalues>
+          <attvalue for="6" value="310" />
+          <attvalue for="7" value="94533.0" />
+        </attvalues>
+      </edge>
+      <edge source="BEAUTY &amp; HEALTH" target="ENTERTAINMENT" id="17" weight="199.0">
+        <attvalues>
+          <attvalue for="6" value="199" />
+          <attvalue for="7" value="46338.0" />
+        </attvalues>
+      </edge>
+      <edge source="BEAUTY &amp; HEALTH" target="HOME &amp; INDUSTRY" id="18" weight="460.0">
+        <attvalues>
+          <attvalue for="6" value="460" />
+          <attvalue for="7" value="174831.0" />
+        </attvalues>
+      </edge>
+      <edge source="BEAUTY &amp; HEALTH" target="OTHERS" id="19" weight="151.0">
+        <attvalues>
+          <attvalue for="6" value="151" />
+          <attvalue for="7" value="40455.0" />
+        </attvalues>
+      </edge>
+      <edge source="BEAUTY &amp; HEALTH" target="T &amp; B" id="20" weight="310.0">
+        <attvalues>
+          <attvalue for="6" value="310" />
+          <attvalue for="7" value="99018.0" />
+        </attvalues>
+      </edge>
+      <edge source="CE" target="CPG" id="21" weight="281.0">
+        <attvalues>
+          <attvalue for="6" value="281" />
+          <attvalue for="7" value="24013.0" />
+        </attvalues>
+      </edge>
+      <edge source="CE" target="ENTERTAINMENT" id="22" weight="188.0">
+        <attvalues>
+          <attvalue for="6" value="188" />
+          <attvalue for="7" value="15478.0" />
+        </attvalues>
+      </edge>
+      <edge source="CE" target="HOME &amp; INDUSTRY" id="23" weight="409.0">
+        <attvalues>
+          <attvalue for="6" value="409" />
+          <attvalue for="7" value="47229.0" />
+        </attvalues>
+      </edge>
+      <edge source="CE" target="OTHERS" id="24" weight="147.0">
+        <attvalues>
+          <attvalue for="6" value="147" />
+          <attvalue for="7" value="11240.0" />
+        </attvalues>
+      </edge>
+      <edge source="CE" target="T &amp; B" id="25" weight="295.0">
+        <attvalues>
+          <attvalue for="6" value="295" />
+          <attvalue for="7" value="21250.0" />
+        </attvalues>
+      </edge>
+      <edge source="CPG" target="ENTERTAINMENT" id="26" weight="176.0">
+        <attvalues>
+          <attvalue for="6" value="176" />
+          <attvalue for="7" value="3617.0" />
+        </attvalues>
+      </edge>
+      <edge source="CPG" target="HOME &amp; INDUSTRY" id="27" weight="296.0">
+        <attvalues>
+          <attvalue for="6" value="296" />
+          <attvalue for="7" value="29085.0" />
+        </attvalues>
+      </edge>
+      <edge source="CPG" target="OTHERS" id="28" weight="140.0">
+        <attvalues>
+          <attvalue for="6" value="140" />
+          <attvalue for="7" value="2716.0" />
+        </attvalues>
+      </edge>
+      <edge source="CPG" target="T &amp; B" id="29" weight="240.0">
+        <attvalues>
+          <attvalue for="6" value="240" />
+          <attvalue for="7" value="6398.0" />
+        </attvalues>
+      </edge>
+      <edge source="ENTERTAINMENT" target="HOME &amp; INDUSTRY" id="30" weight="193.0">
+        <attvalues>
+          <attvalue for="6" value="193" />
+          <attvalue for="7" value="18768.0" />
+        </attvalues>
+      </edge>
+      <edge source="ENTERTAINMENT" target="OTHERS" id="31" weight="96.0">
+        <attvalues>
+          <attvalue for="6" value="96" />
+          <attvalue for="7" value="503.0" />
+        </attvalues>
+      </edge>
+      <edge source="ENTERTAINMENT" target="T &amp; B" id="32" weight="171.0">
+        <attvalues>
+          <attvalue for="6" value="171" />
+          <attvalue for="7" value="2058.0" />
+        </attvalues>
+      </edge>
+      <edge source="HOME &amp; INDUSTRY" target="OTHERS" id="33" weight="150.0">
+        <attvalues>
+          <attvalue for="6" value="150" />
+          <attvalue for="7" value="13846.0" />
+        </attvalues>
+      </edge>
+      <edge source="HOME &amp; INDUSTRY" target="T &amp; B" id="34" weight="309.0">
+        <attvalues>
+          <attvalue for="6" value="309" />
+          <attvalue for="7" value="26613.0" />
+        </attvalues>
+      </edge>
+      <edge source="OTHERS" target="T &amp; B" id="35" weight="141.0">
+        <attvalues>
+          <attvalue for="6" value="141" />
+          <attvalue for="7" value="1642.0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
